@@ -2,19 +2,19 @@
 title: Akhmadjon Ruzikulov's Personal Webpage
 description: My background, present and future plans
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: "https://aruzikulov.github.io" # the base hostname & protocol for your site e.g. https://ahmad.uz
+url: "https://aruzikulov.github.io/ahmad" # the base hostname & protocol for your site e.g. https://ahmad.uz
 
 # User settings
 username: Akhmadjon Ruzikulov
-user_description: Full Stack JavaScript, Python & AI Developer, Native Mobile (Android & iOS) and Desktop (Windows, Mac, Linux) App Engineer. Blockchain Enthusiast & Developer... 
+user_description: Full Stack JavaScript, Python & AI Developer, Native Mobile (Android & iOS) and Desktop (Windows, Mac, Linux) App Engineer. Blockchain Enthusiast & Developer...
 user_title: Co-Founder & CTO at OBORCHAIN <br> Software Developer
 email: aruzikulov@hust.edu.cn
 twitter_username: aruzikulov
-github_username:  aruzikulov
-gplus_username:  ruzikulov
+github_username: aruzikulov
+gplus_username: ruzikulov
 
 # Google-analytics
 google-analytics:
   id: "UA-120148608-1"
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ["package.json", "src", "node_modules"]
