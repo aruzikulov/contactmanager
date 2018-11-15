@@ -1,44 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Webpage
 
-## Available Scripts
+![](./particle.png)
 
-In the project directory, you can run:
+The Webpage features:
 
-### `npm start`
+- Gulp
+- SASS
+- Sweet Scroll
+- Particle.js
+- BrowserSync
+- Font Awesome and Devicon icons
+- Google Analytics
+- Info Customization
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Basic Setup
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Particle Theme](https://github.com/aruzikulov/aruzikulov.github.io)
+3. Clone the repo you just forked.
+4. Edit `_config.yml` to personalize your site.
 
-### `npm test`
+## Site and User Settings
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You have to fill some informations on `_config.yml` to customize your site.
 
-### `npm run build`
+```
+# Site settings
+description: Akhmadjon Ruzikulov's Personal Webpage
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://aruzikulov.github.io" # the base hostname & protocol for your site
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# User settings
+username: Akhmadjon Ruzikulov
+user_description: Co-Founder & CTO at OBORCHAIN <br> Software Developer
+user_title: Akhmadjon Ruzikulov
+email: aruzikulov@hust.edu.cn
+twitter_username: aruzikulov
+github_username:  aruzikulov
+gplus_username:  ruzikulov
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**Don't forget to change your url before you deploy your site!**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Color and Particle Customization
+- Color Customization
+  - Edit the sass variables
+- Particle Customization
+  - Edit the json data in particle function in app.js
+  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
 
-### `npm run eject`
+## Running the blog in local
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+In order to compile the assets and run Jekyll on local you need to follow those steps:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install [NodeJS](https://nodejs.org/)
+- Run `npm install`
+- Run `gulp`
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Questions
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Having any issues file a [GitHub Issue](https://github.com/aruzikulov/aruzikulov.github.io/issues).
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
+
+This theme was partially designed with the inspiration from these fine folks
+- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
+- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
